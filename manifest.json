@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "My Cool Extension",
+  "version": "0.1",
+  "description": "This is a sample description",
+  "short name": "lolol",
+  "permissions": [
+  "content_scripts": [
+    {
+      "matches": ["all_urls"],
+      "css": ["background.css],
+      "js": ["background.js"]
+    }
+  ],
+  "browser_action": {
+     "default_title": "does a thing", 
+     "default_popup": "popup.html",
+     "default_icon": {
+       "128": "icons/icon128.png",
+       "64": "icons/icon64.png"
+     }
+  }
+ }    
+  
+    
+
+
